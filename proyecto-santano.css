@@ -1,0 +1,43 @@
+
+body {padding: 0;
+  font-family: 'Abril Fatface', cursive;}
+
+header {background-image: url(jorjasmith.jpg);
+background-size: cover;
+background-position: center;
+height: 500px}
+
+nav{overflow: auto}
+
+nav ul { 
+    list-style: none;
+    width: 30%; 
+    display: block;
+    float: right;}  
+
+nav li {
+    float: left;
+    position: relative;}
+
+nav a {
+    color: #ffffff;
+    display: block;
+    font: 18px;
+    text-decoration: none;
+    padding: 10px 25px}
+
+nav li:hover a {
+    color: #f2d8bf;}
+
+header img { 
+    width: 300px;
+    margin: auto;
+    display: block;
+    padding-top: 100px;}  
+
+#tour {background-color: #f2d8bf;
+height: 400px;}
+
+#video {height: 100%; 
+background-color: #6da18a;
+}
