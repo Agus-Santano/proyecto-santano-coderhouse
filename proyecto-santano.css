@@ -22,7 +22,7 @@ nav li {
 nav a {
     color: #ffffff;
     display: block;
-    font: 18px;
+    font-size: 18px;
     text-decoration: none;
     padding: 10px 25px}
 
@@ -39,5 +39,4 @@ header img {
 height: 400px;}
 
 #video {height: 100%; 
-background-color: #6da18a;
-}
+background-color: #6da18a;}
