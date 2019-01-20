@@ -35,8 +35,38 @@ header img {
     display: block;
     padding-top: 100px;}  
 
-#tour {background-color: #f2d8bf;
-height: 400px;}
+#tour {
+  background-color: #f2d8bf;
+  height: 400px;}
 
-#video {height: 100%; 
-background-color: #6da18a;}
+#video iframe{
+ display: block;
+ margin: auto;
+ padding-top: 100px} 
+
+#video {
+  height: 600px;
+  background-color: #6da18a;}
+
+#contacto {
+height: 300px;
+background-color: #f2d8bf}
+
+section h2 {
+  padding-top: 30px; 
+  margin: auto;
+  text-align: center;
+  color: #333333; 
+  font-weight: 200;
+  font-size: 30px
+  }
+
+form p {
+    text-align: center
+    } 
+     
+#contacto form input {
+  display: block;
+  margin: auto
+}
+
