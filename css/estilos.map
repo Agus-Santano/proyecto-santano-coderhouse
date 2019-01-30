@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/estilos.css",
+	"sources": [
+		"../scss/estilos.scss"
+	],
+	"sourcesContent": [
+		"body { \r\n    background-color: #ffffff}"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAQ;CAAC",
+	"names": []
+}

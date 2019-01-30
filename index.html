@@ -12,55 +12,55 @@
   <header>      
       <nav>
          <ul>
-             <li><a href="">Bio</a></li>
-             <li><a href="/tour">Tour</a></li>
-             <li><a href="/video">Video</a></li>
-             <li><a href="/contacto">Update</a></li>
+             <li><a href="#logo">Home</a></li>
+             <li><a href="#tour">Tour</a></li>
+             <li><a href="#video">Video</a></li>
+             <li><a href="#contacto">Update</a></li>
          </ul>
        </nav>
-       <img src="jorja-logo.png"/>
+       <img id="logo" src="imagenes/jorja-logo.png"/>
     </header>
 
     <section id="tour">
         <h2>Tour</h2>
       <div>   
         <section class="col">
-            <h3>Enero 28...new zealand</h3>
+            <h3>Enero 28...new zealand</h3><br>
             <p>laneway festival, auckland<br>
             Tickets: <a href="">buy tickets</a></p>
         </section>
         <section class="col">
-            <h3>Febrero 03...australia</h3>
+            <h3>Febrero 03...australia</h3><br>
             <p>laneway festival, sydney, nsw.<br>
                 Tickets: <a href="">buy tickets</a></p>
         </section> 
         <section class="col">
-            <h3>Marzo 29-31...argentina</h3>
+            <h3>Marzo 29-31...argentina</h3><br>
             <p>lollapalooza argentina.<br>
              Tickets: <a href="">buy tickets</a></p>
         </section>
         <section class="col">
-            <h3>Marzo 29-31...chile</h3>
+            <h3>Marzo 29-31...chile</h3><br>
             <p>lollapalooza chile.<br>
                Tickets: <a href="">buy tickets</a></p>
         </section>
         <section class="col">
-            <h3>Abril 05-07...brazil</h3>
-            <p>lollapalooza brazil, interlagos racetrack.<br>
+            <h3>Abril 05-07...brazil</h3><br>
+            <p>lollapalooza brazil<br>
             Tickets: <a href="">buy tickets</a></p>
         </section>
         <section class="col">
-            <h3>Junio 08...london</h3>
+            <h3>Junio 08...london</h3><br>
             <p>field day festvial, london.<br>
             Tickets: <a href="">buy tickets</a></p>
         </section>
         <section class="col">
-            <h3>Julio 11...portugal</h3>
+            <h3>Julio 11...portugal</h3><br>
             <p>nos alive festival, oeiras.<br>
             Tickets: <a href="">buy tickets</a></p>
         </section>
         <section class="col">
-            <h3>Julio 13...spain</h3>
+            <h3>Julio 13...spain</h3><br>
             <p>mad cool, madrid.<br>
             Tickets: <a href="">buy tickets</a></p>
         </section>
@@ -68,6 +68,7 @@
     </section>
 
     <section id="video">
+        <h2>video</h2>
         <iframe width="732" height="410" src="https://www.youtube.com/embed/PA5uuBCtZ5k?list=PLN1XtmMhmW6H1dfwQNIXJbaxivx0HtkAy" 
         frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -78,13 +79,27 @@
     <section id="contacto">
         <h2>stay tuned!</h2>
         <form action="suscripciones">
-            <p>email:</p> <input type="email" value="agus.santano@gmail.com">
-            <input type="submit" value="Enviar!"/>
+            <p>email:</p> <input type="email" class="email" placeholder="agus.santano@gmail.com">
+            <input type="submit" class="submit-btn" value="enviar"/>
         </form>
     </section>
 
     <footer>
-        Aca van redes sociales
+       <div class="socials">
+      <a href="https://www.facebook.com/jorjasmithmusic/" 
+        target="_blank"><img src="imagenes/facebook.svg"></a>
+        <a href="https://www.instagram.com/jorjasmith/" 
+        target="_blank"><img src="imagenes/instagram.svg"></a>
+        <a href="https://twitter.com/JorjaSmith/" 
+        target="_blank"><img src="imagenes/twitter.svg"></a>
+        <a href="https://www.youtube.com/channel/UCHA6dVPvxRdLQ5Uu-uX3MLw" 
+        target="_blank"><img src="imagenes/youtube.svg"></a>
+        <a href="https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd" 
+        target="_blank"><img src="imagenes/spotify.svg"></a>
+        <a href="https://itunes.apple.com/gb/artist/jorja-smith/1088331223" 
+        target="_blank"><img src="imagenes/apple.svg"></a>
+       </div>
     </footer>
 </body>
 </html>
+
